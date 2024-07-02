@@ -8,7 +8,7 @@ module.exports = {
       name: appName,
       script: "index.js",
       instances: 1,
-      cron_restart: "0 */3 * * *",
+      cron_restart: "0 */1 * * *",
     },
   ],
 };
