@@ -1,3 +1,4 @@
 node_modules
 auth_baileys
 *.zip
+package-lock.json
