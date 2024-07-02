@@ -7,7 +7,7 @@ const { currentTime } = require("./utils/utilsDate");
 
 const app = express();
 
-const PORT = 3000;
+const PORT = process.env.SERVER_PORT || 3000;
 
 app.use(express.json());
 
